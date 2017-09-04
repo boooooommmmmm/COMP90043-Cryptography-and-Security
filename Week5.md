@@ -23,7 +23,26 @@
 
 ### Forgery attack
 
+s = M^d mod N
+
+(M1 * M2)^d= M1^d* M2^d
+
+(s1 * s2) is the signature of (M1*M2).
 
 
 
+### Blinding
 
+Alice’s public key – [N,e]; Private key [d]
+
+Choose a random x – in the range [0..N-1]
+
+Form a blinded message -- Mb = x ^ e * M mod N
+
+Alice may sign sb = Mb^d mod N
+
+**s = sb/x mod N**
+
+s^ e = sb^e /x ^e = (Mb)^d e /x^ e = (Mb) /x^ e = x^ e M / x^ e = M
+
+Hence s is the signature of M.
