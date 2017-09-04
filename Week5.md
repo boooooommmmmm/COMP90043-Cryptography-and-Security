@@ -18,7 +18,12 @@
 * Signature is a means for a trusted third party to bind the identity of a user to a public key
 * Complement of RSA public encryption
 * Private key signs messages; public key verify the signatures
-* ​
+
+
+
+### Forgery attack
+
+
 
 
 
