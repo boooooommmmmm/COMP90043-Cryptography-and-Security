@@ -46,3 +46,21 @@ Alice may sign sb = Mb^d mod N
 s^ e = sb^e /x ^e = (Mb)^d e /x^ e = (Mb) /x^ e = x^ e M / x^ e = M
 
 Hence s is the signature of M.
+
+
+
+### RSA signature need pay attention:
+
+* messages should be long
+* Need redundancy function to avoid forgery attack
+* repeated messages carry same signature
+* Hash function is applied to the message and sign the hash 
+
+
+
+### Security
+
+* Brute force attack: infeasible 
+* Factorisation infeasible
+* Timing attacks: how long a receiver computer takes to decipher messages. it is applicable many other crypto systems including symmetric key ciphers. (constant exponentiation time, random delay, blinding)
+* Fault-Based Attack: reducing the power to the processor -> analysis the faults-> not a serious threat to RSA: need to access machine physically.
