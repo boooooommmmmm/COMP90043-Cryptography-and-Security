@@ -61,7 +61,7 @@ If gcd(n, a) is 1; xn + ya = 1. -> ya = 1 mod n.
 <br/>
 <br/>
 
-**cryptanalysis (code breaking)** - study of principles/ methods of deciphering ciphertext without knowing key -> 密码分析 ->Objective to recover key, not just message ->cryptanalytic attack/cryptanalytic attack
+**cryptanalysis (code breaking)** - study of principles/ methods of deciphering ciphertext without knowing key -> 密码分析 ->**Objective to recover key, not just message** ->cryptanalytic attack/cryptanalytic attack
 <br/>
 <br/>
 
@@ -80,7 +80,9 @@ chosen text - select plaintext or ciphertext to en/decrypt
 <br/>
 <br/>
 
-### unconditional security/conditional security -> 无条件安全，有条件安全
+### unconditional security/conditional security 
+
+-> 无条件安全，有条件安全
 
 -> no matter how much computer power or time is available
 
