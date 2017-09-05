@@ -40,3 +40,33 @@ Given y=f(x), computing ‘x’ from ‘y’ is difficult or hard
 
 
 
+### Diffie-Hellman
+
+Alice and Bob share p and g (p=11, g=2)
+
+g need to be primitive element 素元
+
+Alice: g^n
+
+Bob: g^m
+
+g^n^m mod p = g^m^n mod p
+
+**Problem:** 
+
+cyclic group is finite field
+
+man in middle
+
+missing authentication
+
+
+
+### Attack for RSA
+
+
+
+**CCA**
+
+
+
