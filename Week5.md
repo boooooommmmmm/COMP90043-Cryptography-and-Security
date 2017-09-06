@@ -62,5 +62,5 @@ Hence s is the signature of M.
 
 * Brute force attack: infeasible 
 * Factorisation infeasible
-* Timing attacks: how long a receiver computer takes to decipher messages. it is applicable many other crypto systems including symmetric key ciphers. (constant exponentiation time, random delay, blinding)
+* **Timing attacks**: how long a receiver computer takes to decipher messages. it is applicable many other crypto systems including symmetric key ciphers. (constant exponentiation time, random delay, blinding)
 * Fault-Based Attack: reducing the power to the processor -> analysis the faults-> not a serious threat to RSA: need to access machine physically.
