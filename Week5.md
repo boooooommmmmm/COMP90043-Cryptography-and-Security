@@ -4,12 +4,19 @@
 
 ## RSA Signatures
 
+**Signature is a means for a trusted third party (Network Security Manager) to bind the identity of a user to a public key.**
+
 * Signature is a pattern that depends on the message being singend
 * Must use some information unique to the sender to prevent both forgery and denial
 * Relatively easy to produce the digital signature
 * Relatively easy to recognize and verify the digital signature
 * Computationally infeasible to forge a digital signature
 
+
+**Difference with encrytion:**
+
+* Owner for the private key signs messages; Anyone with the public key can **verify** the signatures
+* In RSA encryption, anyone with the public key can encrypt messages and the owner of the private key can decrypt the messages.
 
 
 ### RSA Signatures properties 
@@ -61,6 +68,9 @@ Hence s is the signature of M.
 ### Security
 
 * Brute force attack: infeasible 
-* Factorisation infeasible
+* Mathematical attacks (Factoring and RSA problem)
+  * Factoring : infeasible -> hard to factor n
+  * Elementary attacks: Knowing n, Φ(n) is also equivalent to factoring
+  *  RSA problem:
 * **Timing attacks**: how long a receiver computer takes to decipher messages. it is applicable many other crypto systems including symmetric key ciphers. (constant exponentiation time, random delay, blinding)
 * Fault-Based Attack: reducing the power to the processor -> analysis the faults-> not a serious threat to RSA: need to access machine physically.
