@@ -31,7 +31,33 @@ Asymmetric: public key
 
 
 
+### Three important concerns of Information security
 
+1. Confidentiality 机密性 -> Preserving authorized restriction on information access and disclosure(揭露), including means for protecting personal privacy and proprietary.
+2. Integrity -> against information modified
+3. Availability -> Ensure timely and reliable access to and use of information
+4. Authentication
+5. Accountability 责任性
+
+
+
+### Security Attack / Threats
+
+A Security Threat is a possible danger that might exploit a vulnerability A Security Attack is an intelligent act that is a deliberate attempt to evade security services and violate the security policy of a system.
+
+**passive / active attack **
+
+Denial of service
+
+Release of message contents
+
+Message modification
+
+Masquerade
+
+Traffic analysis
+
+Replay
 
 
 

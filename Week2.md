@@ -39,7 +39,7 @@ If gcd(n, a) is 1; xn + ya = 1. -> ya = 1 mod n.
 
 **cipher** - algorithm for transforming plaintext to ciphertext
 
-**key** -info used in cipher known only to sender/receiver
+**key** -info used in cipher known only to sender/receiver; required for en/de algorithm
 
 **encipher (encrypt)** - converting plaintext to ciphertext
 
