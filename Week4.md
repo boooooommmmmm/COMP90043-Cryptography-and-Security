@@ -48,7 +48,7 @@ given g and h, hard to get x:
 
 g^x = h 		<u>(mod p)</u>
 
-
+(DLOG)
 
 ### DH problem
 
@@ -94,6 +94,8 @@ Attack
 2. Submit X as a chosen ciphertextand obtain corresponding plain text Y = X^dmod n.
 3. Note that Y is in fact (2M) mod n
 4. Compute M = Inverse(2) *Y mod n
+
+
 
 
 
