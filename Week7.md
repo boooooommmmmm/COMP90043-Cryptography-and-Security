@@ -1,8 +1,6 @@
 # Week 7
 
-
-
-
+<br />
 
 ---
 
@@ -10,27 +8,30 @@ Middle exam this week, no second lecture.
 
 ---
 
-
-
-
+<br />
 
 ## Key Distribution
 
+Use common security key.
+
 Main purpose of key distribution to ensure that keys are private between the sender and receiver.
+
+Need frequency changing the keys. -> limits the ability of ...
 
 
 
 **Key distribution alternatives**
 
 1. physically deliver
-
-2. third part select or deliver
-
+2. third part **select or deliver key**.
 3. using previous key to encrypt a new key
+4. third party C to **relay key** if the communications channels with C are secured
 
-4. third party C to relay key if the communications channels with C are secured
 
-   ​
+<br />
+
+
+### Key Hierarchy
 
 **Session key**
 
@@ -53,6 +54,11 @@ Shared by user and key distribution centre.
 
 
 ### Key Distribution Scenario
+
+Assumption: 
+
+1. A wants to communicates with B.
+2. Each user have master key agreed with KDC.
 
 ![w7_1](.\PIC\w7_1.png)
 
@@ -132,3 +138,8 @@ Problems for bias or uneven distribution and use
 
 
 
+<br />
+
+---
+
+END
