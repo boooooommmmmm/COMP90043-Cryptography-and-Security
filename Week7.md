@@ -82,7 +82,16 @@ Assumption:
   * backward compatibility
 
 
+<br />
 
+### Session Key Lifetime
+
+* More frequency more secure
+* The distribution of session can delay the start of exchange
+* Connection-oriented: using a new session key for each new session; depends on the length of time.
+* Transition-oriented: the most secure is using new session key for each exchange. However, in our case, we use a given session key for a certain fixed period only or for a certain number of transactions
+
+<br />
 
 
 ### Random Numbers
@@ -91,7 +100,7 @@ statistically random, uniform distribution, independent
 
 unpredictability of future values from previous values
 
-
+<br />
 
 **Pseudorandom Number Generators (PRNGs)**
 
@@ -99,17 +108,21 @@ not truly random
 
 can pass random test
 
-
+<br />
 
 **Linear Congruential Generator**
 
 Xn+1= (aXn+ c) mod m
 
+Widely use
 
+C: Random()
+
+<br />
 
 **Using Block Ciphers as PRNGs**
 
-
+<br />
 
 **Blum Blum Shub Generator**
 
@@ -122,15 +135,19 @@ difficulty of factoring n
 
 slow
 
-
+<br />
 
 **Natural Random Noise**
 
-Find a regular but random event and monitor
+True random
+
+Find a regular but random event and monitor:
+
+operate by measuring unpredictable natural processes, such as pulse detectors of ionizing radiation events, gas discharge tubes, and leaky capacitors.
 
 Problems for bias or uneven distribution and use
 
-
+<br />
 
 **Published Sources**
 
