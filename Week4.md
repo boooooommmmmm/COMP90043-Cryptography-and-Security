@@ -1,12 +1,6 @@
 # Week 4
 
-
-
-## Public Key
-
-
-
-
+Public Key
 
 ### Symmetric Key
 
@@ -15,9 +9,9 @@ DIS:
 * One key for en/de; 
 * sender and receiver both need keep a key;
 * One party can forge other party's data
-* ​
 
 
+<br />
 
 ### Asymmetric Key
 

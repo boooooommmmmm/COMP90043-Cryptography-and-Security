@@ -1,5 +1,8 @@
 # Week2
+This week is talking about symmetric key cryptography
+
 <br/>
+
 ## Euclid's algorithm
 Let a, b, q, r be integers with such that a = qb + r . Then gcd(a, b) = gcd(b, r ).<br />
 gcd(33, 21)
@@ -52,7 +55,7 @@ If gcd(n, a) is 1; xn + ya = 1. -> ya = 1 mod n.
 **cryptology** - field of both cryptography and cryptanalysis
 <br/>
 
-### Two requirements for secure use of symmetric encryption
+### *Two requirements for secure use of symmetric encryption*
 
 * a strong encryption algorithm
 

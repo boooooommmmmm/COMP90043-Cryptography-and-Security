@@ -28,13 +28,7 @@ Keyed hash function
 
 
 
-
-
-
-
 For textbook RSA, signing and decrypt is the same...
-
-
 
 
 
@@ -61,7 +55,7 @@ One-bit circular shift
 1. Variable input size; input -> can be any size
 2. output -> must be fixed size for all input -> larger size the more collision resistant
 3. Efficiency: easy to compute H(x) from x
-4.  one way function -> Infeasible to compute x from H(X) 
+4. one way function -> Infeasible to compute x from H(X) 
 5. collision resistant(weak) -> computation infeasible
 6. collision resistant(Strong) -> cannot find a pair of (x,y) that H(x) = H(y)
 7. Pseudorandonness -> output is random
@@ -94,16 +88,11 @@ One-bit circular shift
 
 * against replace attack
 
-  ​
-
-
 
 
 
 
 ---
-
-
 
 
 

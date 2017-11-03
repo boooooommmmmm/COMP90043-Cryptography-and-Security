@@ -1,11 +1,16 @@
-# What is Cryptography
+# Week 1
+
+<br/>
+
+## What is Cryptography
+
 * Secret writing
 * Techniques for protecting data on information communication.
 * A range of techniques such as Encryption, Signature, Hash functions, assuring Privacy, Integrity, and Authentication
   <br>
 
 ## What is Information Security?
-* Exchange and processing of information on modern computers and networks confidentiality, Integrity, and Availability.
+* Exchange and processing of information on modern computers and networks **confidentiality, Integrity, and Availability**.
   <br>
 
 ## What is Cyber Security?
@@ -27,9 +32,7 @@ Asymmetric: public key
 * K = (YB)^XA mod q = (a^XB mod q)^XA mod q = (a^XB)^XA mod q 
 
 
-
-
-
+<br />
 
 ### Three important concerns of Information security
 
