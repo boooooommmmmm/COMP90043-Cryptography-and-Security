@@ -1,18 +1,21 @@
 # Week 3
 
-Block cipher
+### One Time Pad
+
+* Random secret key
+* Unconditional Security
+* The adversary will not learn any knowledge to reverse the encryption from watching cipher text even with unlimited computing power.
+* Seeing the cipher text C does not increase the adversaries knowledge about the message.
 
 
 
+<br />
 
-
-
-
-
+<br />
 
 ### Block Cipher
 
-Block Cipher: A block cipher takes a fixed length plain text message block (for example, 64 or 128 bits) and a key, and produces a cipher text block of the same length as the original message.
+Block Cipher: A block cipher takes a **fixed length** plain text message block (for example, 64 or 128 bits) and a key, and produces a cipher text block of the same length as the original message.
 
 * Same key is used for many different message blocks.
 * Diffusion dissipates statistical structure of plaintext over bulk of ciphertext.

@@ -55,6 +55,8 @@ If gcd(n, a) is 1; xn + ya = 1. -> ya = 1 mod n.
 **cryptology** - field of both cryptography and cryptanalysis
 <br/>
 
+<br />
+
 ### *Two requirements for secure use of symmetric encryption*
 
 * a strong encryption algorithm
@@ -62,9 +64,22 @@ If gcd(n, a) is 1; xn + ya = 1. -> ya = 1 mod n.
 * a secret key is known only to sender/receiver
 
 <br/>
+
+#### Type of encryption operations used
+
+1. Substitution
+2. Transposition
+3. Product
+
 <br/>
 
+#### General approaches
+
+* cryptanalytic attack
+* brute-force attack
+
 **cryptanalysis (code breaking)** - study of principles/ methods of deciphering ciphertext without knowing key -> 密码分析 ->**Objective to recover key, not just message** ->cryptanalytic attack/cryptanalytic attack
+
 <br/>
 <br/>
 
@@ -96,34 +111,24 @@ chosen text - select plaintext or ciphertext to en/decrypt
 
 ## Cipher methods
 
-* Classical Substitution Ciphers -> 代换加密 -> change letters with other numbers or symbols
+* Classical **Substitution** Ciphers -> 代换加密 -> change letters with other numbers or symbols
 
-* Caesar Cipher - replaces each letter by 3rd letter on - earliest - c = E(p) = (p + k) mod (26)
+  * Caesar Cipher - replaces each letter by 3rd letter on - earliest - c = E(p) = (p + k) mod (26)
 
-* Monoalphabetic Cipher -> 表单密码 -> each plaintext letter maps to a different random ciphertext letter -> hence key is 26 letters long -> 26! keys -> can use Language Redundancy and Cryptanalysis
-
-* Polyalphabetic Ciphers -> 多表单替换密码 -> Improve security using multiple cipher alphabets
-
-* Vigenère Cipher -> 维吉尼亚密码 -> Polyalphabetic Ciphers -> hence letter frequencies are obscured, but not totally lost
-
-* Kasiski Method
-
+  * Monoalphabetic Cipher -> 表单密码 -> each plaintext letter maps to a different random ciphertext letter -> hence key is 26 letters long -> 26! keys -> can use Language Redundancy and Cryptanalysis
+* Polyalphabetic Ciphers -> 多表单替换密码 -> Improve security using multiple cipher alphabets -> Use a key to select which alphabet is used for each letter of the message -> repeat from start after end of key is reached
+  * Vigenère Cipher -> 维吉尼亚密码 -> Polyalphabetic Ciphers -> hence letter frequencies are obscured, but not totally lost
 * One-Time Pad -> 单次密本 -> if a truly random key as long as the message is used, the cipher will be secure called a One-Time pad -> is unbreakable since ciphertext bears no statistical relationship to the plaintext -> since for any plaintext& any ciphertextthere exists a key mapping one to other -> only use once -> problems in generation & safe distribution of key
-
-* transposition cipher -> 转置密码 -> rearranging the letter order -> can recognise these since have the same frequency distribution as the original text
-
-* Rail Fence cipher -> 栅栏加密法 -> write message letters out diagonally over a number of rows
-
-* Row Transposition Ciphers -> write letters of message out in rows over a specified number of columns -> then reorder the columns according to some key before reading off the rows
-
+* Transposition cipher -> 转置密码 -> rearranging the letter order -> can recognise these since have the same frequency distribution as the original text
+  * Rail Fence cipher -> 栅栏加密法 -> write message letters out diagonally over a number of rows
+  * Row Transposition Ciphers -> write letters of message out in rows over a specified number of columns -> then reorder the columns according to some key before reading off the rows
 * Product Ciphers -> ciphers using substitutions or transpositions are not secure because of language characteristics -> Rotor Machines
-
 * Steganography -> 速记式加密 -> using invisible ink
 
 
 ***
 
-### Language Redundancy and Cryptanalysis:
+#### Language Redundancy and Cryptanalysis:
 
 human languages are redundant
 
@@ -136,6 +141,8 @@ other letters like Z,J,K,Q,X are fairly rare
 English Letter Frequencies
 
 
+
+#### Kasiski Method
 
 
 
