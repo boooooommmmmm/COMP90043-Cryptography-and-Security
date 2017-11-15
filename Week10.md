@@ -10,7 +10,7 @@ user authentication is the fundamental building block and the primary line of de
 
 User authentication is the basis for most types of access control and for user accountability
 
-Identificaiton -> specify identifier
+Identification -> Presenting an identifier to the security system.
 
 Verification -> bind entity and identifier
 
@@ -93,6 +93,10 @@ AS
 TS
 
 TGS
+
+<br />
+
+## SSL
 
 
 
